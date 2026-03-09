@@ -1,5 +1,10 @@
 # Tota Releases
 
+## v2.0 (2026-03-09)
+
+Fixed a crash when audio device becomes unavailable (Bluetooth disconnect, sleep/wake)
+
+
 ## v1.9 (2026-03-08)
 
 Fixed a crash when audio device becomes unavailable (Bluetooth disconnect, sleep/wake)
