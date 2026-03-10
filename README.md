@@ -1,5 +1,10 @@
 # Tota Releases
 
+## v2.1 (2026-03-10)
+
+Added option to hide Tota from Cmd+Tab app switcher (Settings > General > Behavior)
+
+
 ## v2.0 (2026-03-09)
 
 Fixed a crash when audio device becomes unavailable (Bluetooth disconnect, sleep/wake)
