@@ -1,5 +1,12 @@
 # Tota Releases
 
+## v2.3 (2026-03-13)
+
+- Added fn (🌐) key as a hold-to-talk option
+- Added ⌘, keyboard shortcut to open Settings
+- Whisper non-speech tags like [BLANK_AUDIO] and [MUSIC] are now automatically filtered out
+
+
 ## v2.2 (2026-03-11)
 
 - Voice commands now sorted alphabetically across all tabs
