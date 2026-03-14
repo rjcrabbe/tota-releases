@@ -1,5 +1,15 @@
 # Tota Releases
 
+## v2.4 (2026-03-14)
+
+- Added "Hey Tota" wake word for hands-free activation using Apple's on-device speech recognition
+- Added auto-stop recording on silence with configurable delay
+- Fixed voice command shortcut display (e.g. "Cmd+G" instead of "Cmd+Key(5)")
+- Fixed checkbox hit-testing in command modifier key selection
+- Moved Cancel button to left side of forms for consistency
+- Forms scroll into view when adding new commands, snippets, or filler words
+
+
 ## v2.3 (2026-03-13)
 
 - Added fn (🌐) key as a hold-to-talk option
