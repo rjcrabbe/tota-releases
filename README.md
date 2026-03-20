@@ -1,5 +1,13 @@
 # Tota Releases
 
+## v2.5 (2026-03-20)
+
+- Added multilingual transcription: choose Transcribe or Translate to English for non-English speech
+- Added language selection: Auto-detect plus 11 languages (Spanish, French, German, Italian, Portuguese, Japanese, Chinese, Korean, Russian, Arabic, Hindi, Dutch)
+- Fixed selected Whisper model not persisting across app launches, which caused language settings to reset
+- Fixed recording overlay intermittently disappearing during transcription when dictionary polling was active
+
+
 ## v2.4 (2026-03-14)
 
 - Added "Hey Tota" wake word for hands-free activation using Apple's on-device speech recognition
