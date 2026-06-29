@@ -1,5 +1,12 @@
 # Tota Releases
 
+## v2.6 (2026-06-29)
+
+- Smart Formatting (new): an optional on-device AI model cleans up your dictation — fixing typos and misheard words and formatting lists — all processed locally on your Mac
+- Faster first transcription: the speech model now warms up in the background at launch, so your first dictation no longer stalls
+- Accurate download progress and speed when fetching the Smart Formatting model
+
+
 ## v2.5 (2026-03-20)
 
 - Added multilingual transcription: choose Transcribe or Translate to English for non-English speech
