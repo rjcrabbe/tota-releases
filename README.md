@@ -1,5 +1,13 @@
 # Tota Releases
 
+## v2.7 (2026-06-30)
+
+- Vocabulary & Glossaries (new): teach Tota the names, jargon, and acronyms you use — it biases transcription toward your terms, corrects common mishears, and can automatically pick the right glossary based on the app you're dictating into
+- Smart Formatting stays in its lane: fixed cases where it would answer or act on your dictation instead of just cleaning it up, and hardened it against text that tries to hijack the formatter
+- Faster Smart Formatting: the system prompt is now cached, so each cleanup runs quicker
+- Fixed a bug that could occasionally produce an empty transcription
+
+
 ## v2.6 (2026-06-29)
 
 - Smart Formatting (new): an optional on-device AI model cleans up your dictation — fixing typos and misheard words and formatting lists — all processed locally on your Mac
