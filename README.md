@@ -1,5 +1,13 @@
 # Tota Releases
 
+## v2.8 (2026-07-01)
+
+- Audio Drop (new): drop in a recording and get a full transcript with automatic speaker labels — who said what, start to finish. Rename speakers to real names, and export to plain text, Markdown, subtitles (SRT), JSON, or CSV. Everything runs on your Mac.
+- Timestamps, your way: show them once per speaker turn, on every sentence, or turn them off entirely.
+- Cleaner transcripts: removed stray caption markers and formatting artifacts that could appear at the start of lines.
+- A progress bar now shows how far along a transcription is.
+
+
 ## v2.7 (2026-06-30)
 
 - Vocabulary & Glossaries (new): teach Tota the names, jargon, and acronyms you use — it biases transcription toward your terms, corrects common mishears, and can automatically pick the right glossary based on the app you're dictating into
