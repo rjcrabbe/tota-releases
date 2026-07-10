@@ -1,5 +1,19 @@
 # Tota Releases
 
+## v3.0 (2026-07-10)
+
+- Dictation now keeps recording when you switch apps mid-sentence (⌘Tab) — previously the recording was cut off or lost at the switch
+- Dictation is no longer interrupted by automation tools (e.g. AI agents) typing or switching apps in the background
+- If you've moved to a different app by the time transcription finishes, Tota no longer pastes into the wrong window — the text is copied to your clipboard with an on-screen "Press ⌘V to paste" prompt
+- New English Spelling setting (US/UK): UK keeps British spellings (colour, realise, centre) in transcriptions and Smart Formatting
+- A large on-screen alert now appears when your microphone changes (e.g. plugging into a display or unplugging headphones), and your next dictation shows which microphone it's using
+- Fixed: unplugging your selected microphone could silently record from the wrong device — or nothing at all; dictation now verifiably switches to the built-in mic (never a nearby iPhone)
+- Audio Input settings now always show the microphone actually in use, and your preferred mic is picked up again automatically when reconnected
+- Smart Formatting now lays out messages and letters properly — greeting, body, and sign-off on their own lines
+- Smart Formatting tells you when a dictation couldn't be formatted (model still loading, or the cleanup was skipped) instead of failing silently
+- "Open URL" voice commands now work without typing the https:// prefix
+
+
 ## v2.8 (2026-07-01)
 
 - Audio Drop (new): drop in a recording and get a full transcript with automatic speaker labels — who said what, start to finish. Rename speakers to real names, and export to plain text, Markdown, subtitles (SRT), JSON, or CSV. Everything runs on your Mac.
