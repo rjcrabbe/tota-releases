@@ -1,5 +1,14 @@
 # Tota Releases
 
+## v3.1 (2026-07-10)
+
+- Redesigned onboarding tour: brand-new visuals, a privacy-first welcome, and live demos throughout
+- Smart Formatting can now be switched on during onboarding — the model download starts right away with progress shown
+- Onboarding now previews the correction Undo pill and the transcription models, and credits WhisperKit
+- Fixed: recording could fail with an "Audio device unavailable" error right after switching microphones (e.g. after picking a mic during onboarding)
+- Fixed: adding a custom voice command could duplicate built-in commands; custom commands are now labelled and apps categorised correctly
+
+
 ## v3.0 (2026-07-10)
 
 - Dictation now keeps recording when you switch apps mid-sentence (⌘Tab) — previously the recording was cut off or lost at the switch
