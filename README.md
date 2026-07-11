@@ -1,5 +1,13 @@
 # Tota Releases
 
+## v3.2 (2026-07-11)
+
+- Settings reorganised into five clear tabs so every option is easier to find
+- Learned corrections now appear in a card in the lower part of the screen, with a bigger Undo button — multiple corrections from one dictation are shown together with Undo All
+- Fixed: dictating into a terminal (e.g. Claude Code) could teach the dictionary screen junk, which then corrupted future dictations or added words to them
+- Glossary biasing is now off by default — switch a glossary on in Settings → Vocabulary when you want it; turning it off now sticks across restarts
+
+
 ## v3.1 (2026-07-10)
 
 - Redesigned onboarding tour: brand-new visuals, a privacy-first welcome, and live demos throughout
