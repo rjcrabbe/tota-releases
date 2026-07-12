@@ -1,5 +1,13 @@
 # Tota Releases
 
+## v3.3 (2026-07-12)
+
+- Macros can now take dictation: say a macro trigger and keep talking — your words fill {dictation} slots, with "next field" jumping between them
+- Reorder macro steps by dragging; adjacent dictated-text steps get a Tab inserted between them automatically
+- New spoken layout commands: "new paragraph", "new line", and "new list" — say them mid-dictation or on their own
+- Fixed: dictating at the start of a line no longer inserts a stray leading space
+
+
 ## v3.2 (2026-07-11)
 
 - Settings reorganised into five clear tabs so every option is easier to find
