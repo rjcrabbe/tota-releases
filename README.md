@@ -1,5 +1,14 @@
 # Tota Releases
 
+## v3.4 (2026-07-14)
+
+- Secure snippets: store passwords and other secrets encrypted in your Mac's keychain — say the trigger, confirm with Touch ID, and Tota pastes it. Never shown again after saving, never in history or logs
+- Snippets can now be command-only: say the trigger on its own to insert, without it firing mid-dictation (the new default for new snippets)
+- Duplicate-trigger warning when a snippet clashes with another snippet, voice command, or macro
+- New built-in commands: "clear" (clears the current line), "new" (⌘N), and "next field" / "tab"
+- Clearer guidance when macOS secure keyboard entry pauses dictation shortcuts, with a wake-word tip
+
+
 ## v3.3 (2026-07-12)
 
 - Macros can now take dictation: say a macro trigger and keep talking — your words fill {dictation} slots, with "next field" jumping between them
