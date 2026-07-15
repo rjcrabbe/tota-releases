@@ -1,5 +1,13 @@
 # Tota Releases
 
+## v3.5 (2026-07-15)
+
+- New Analytics tab: words-per-minute, a daily activity heatmap, and your dictation streak — also a click away from the stats at the top of Home
+- Analytics rebuilds your full history from your archives, so the heatmap and streaks reach back to your first dictation
+- See which apps you dictate into most (counting starts with this update)
+- Fun all-time milestones: books and pages written, time saved vs typing, weeks with Tota — and a naughty word counter
+
+
 ## v3.4 (2026-07-14)
 
 - Secure snippets: store passwords and other secrets encrypted in your Mac's keychain — say the trigger, confirm with Touch ID, and Tota pastes it. Never shown again after saving, never in history or logs
