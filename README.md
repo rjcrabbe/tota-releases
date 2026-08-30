@@ -1,5 +1,19 @@
 # Tota Releases
 
+## v3.9 (2026-08-30)
+
+- New: Spell what's on your screen — when you start dictating, Tota glances at the window you're dictating into and spells the names and labels you're looking at correctly. It happens entirely on your Mac and nothing is stored or sent anywhere. On by default; turn it off in Settings → Corrections
+- When a context correction fires, it shows in the corrections card with one-click Revert and "don't correct again"
+- New notch indicator: on Macs with a notch, recording status hugs the notch with a live waveform and a transcribing animation — the floating pill remains on screens without one
+- Say your formatting: spoken brackets and casing commands — "open bracket … close bracket", "all caps", "camel case", "snake case" — with a new onboarding step to learn them
+- "Hey Tota" hears you more reliably, with better recognition biasing and fuzzy matching for close pronunciations
+- Fixed: quiet trailing speech at the end of a dictation is no longer cut off
+- Fewer wrong autocorrections: everyday modern words are never rewritten, and low-confidence transcriptions no longer trigger biased rewrites
+- Glossaries now live behind a single switch at the top of the Glossaries page, off by default — flip it on if you use them
+- Smart Formatting: question marks no longer split a clause from its sentence, and the first format after your Mac wakes is much faster
+- Fixed: stray leading space when pasting into Gmail in Chrome, and mirrored error-banner text after wake
+
+
 ## v3.5 (2026-07-15)
 
 - New Analytics tab: words-per-minute, a daily activity heatmap, and your dictation streak — also a click away from the stats at the top of Home
