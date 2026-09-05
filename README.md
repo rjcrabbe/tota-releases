@@ -1,5 +1,25 @@
 # Tota Releases
 
+## v3.9.1 (2026-09-05)
+
+- Fixed: entering a wrong or seat-limited license key no longer removes your existing activation — the new key is checked first and your current license stays put if it fails
+- Fixed: if Tota loses its license record and can't reach the license server (offline, DNS), licensed users keep working for 7 days with a "couldn't verify" notice and a Retry button instead of a "trial ended" lock-out
+- License status is re-checked when you bring Tota to the front, so a yearly expiry is noticed without a relaunch
+- Your dictionary, snippets, glossaries, voice commands, macros, filler words and clipboard history are written atomically, and a file that fails to load is set aside as a .corrupt backup instead of being silently replaced with defaults
+- Dictionary corrections now apply next to line breaks (lists, paragraphs) and keep the capitalisation of the word you said
+- Correction-pair logging (Settings → Corrections → "Keep a record of your corrections") is now off by default, never stores the words seen on your screen, and its file is readable only by your user account
+- Smart Formatting: if the formatter hits an error, you see the "ran into an error" notice instead of silently getting the raw transcript
+- Fixed: pressing the hotkey moments after launch no longer races the model's warm-up
+- Fixed: two dictations in quick succession with an empty clipboard now leave the clipboard empty
+- Fixed: editing a secure snippet's secret can no longer leave the snippet locked with no secret behind it
+- Settings → Support: the support docs link now points to heytota.com/docs/troubleshooting
+- Context spelling: ordinary plurals and inflections ("reports", "settings", "files") and UK spellings ("colours") are no longer rewritten toward a similar-sounding on-screen name
+- Context spelling: multi-word on-screen names must match every word, and window titles with a spaced hyphen ("App - Section") are treated as separate names
+- Reverting a screen spelling from the corrections card now stops that correction for the rest of the session; the card also has a close button and lingers less after the pointer leaves
+- Onboarding: the "Sharper transcription" step now offers the Medium (English) model as a background download — the built-in model keeps working while it fetches, and nothing switches until you press "Use Medium"
+- If a data file can't be read or backed up, Tota keeps it read-only for the session rather than writing defaults over it
+
+
 ## v3.9 (2026-08-30)
 
 - New: Spell what's on your screen — when you start dictating, Tota glances at the window you're dictating into and spells the names and labels you're looking at correctly. It happens entirely on your Mac and nothing is stored or sent anywhere. On by default; turn it off in Settings → Corrections
